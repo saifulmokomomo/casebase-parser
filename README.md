@@ -8,5 +8,10 @@ dependencies:
   - jsch-0.1.53
   - mysql-connector-java-5.1.38-bin
   - pdfbox-1.8.9
-  
-usage: java PDFTextParser <Directory> [-remote]
+
+
+convert pdfs to text first for easy manipulation
+  java ToText <Directory>
+
+process the converted pdfs and insert into database
+  java CaseBaseFromText <Directory> [-remote]
