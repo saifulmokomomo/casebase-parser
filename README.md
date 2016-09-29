@@ -11,7 +11,7 @@ dependencies:
 
 
 convert pdfs to text first for easy manipulation
-  java ToText <Directory>
+  - java ToText <Directory>
 
 process the converted pdfs and insert into database
-  java CaseBaseFromText <Directory> [-remote]
+  - java CaseBaseFromText <Directory> [-remote]
