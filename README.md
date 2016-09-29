@@ -10,8 +10,8 @@ dependencies:
   - pdfbox-1.8.9
 
 
-convert pdfs to text first for easy manipulation
-  - java ToText <Directory>
+convert pdfs to text first for easy manipulation:
+  - java ToText \<Directory>
 
-process the converted pdfs and insert into database
-  - java CaseBaseFromText <Directory> [-remote]
+process the converted pdfs and insert into database:
+  - java CaseBaseFromText \<Directory> [-remote]
